@@ -2,9 +2,6 @@
 import streamlit as st
 import time
 
-#EDA packages
-import pandas as pd
-import plotly.express as px
 
 #database system
 import predictor
