@@ -22,4 +22,3 @@ def predict(parameters):
 
     return [output,y_prob]
         
-print(predict([9.71,143.50,0.42,6.8,0.2,0.01,0.08,0.9,0.16,0.07]))
