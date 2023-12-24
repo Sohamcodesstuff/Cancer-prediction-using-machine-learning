@@ -10,7 +10,7 @@ import predictor
 def main():
     st.title("Breast Cancer Prediction System")
     menu = ["Predict","About"]
-    st.sidebar.image("b_cancer.png",width=200)
+    st.sidebar.image("Streamlit_ui_refactor/b_cancer.png",width=200)
     choice = st.sidebar.selectbox("Menu",menu)
     params = []
     prediction = None
