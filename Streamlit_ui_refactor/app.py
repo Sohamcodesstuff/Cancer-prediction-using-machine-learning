@@ -18,7 +18,7 @@ def main():
     
     if choice=="Predict":
         st.subheader("Input Biopsy Parameters")
-        p1 = st.number_input("Texture Mean", min_value=9.71, max_value=39.2, value="min")
+        p1 = st.number_input("Texture Mean", min_value=9.71, max_value=39.2, value=min)
         p2 = st.number_input("Area Mean", min_value=143.5, max_value=2501.00, value="min")
         p3 = st.number_input("Concavity Mean", min_value=0.00, max_value=0.43, value="min")
         p4 = st.number_input("Area SE", min_value=6.80, max_value=542.20, value="min")
