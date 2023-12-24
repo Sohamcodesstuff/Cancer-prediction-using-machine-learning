@@ -37,7 +37,7 @@ def main():
 
             progress_text = "Processing data"
             prediction = predictor.predict(parameters=params)
-            my_bar = st.progress(0, text=progress_text)
+            my_bar = st.progress(0, text="Processing data")
 
             for percent_complete in range(100):
                 time.sleep(0.01)
